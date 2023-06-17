@@ -31,7 +31,7 @@ export async function requestOpenai(req: NextRequest) {
     controller.abort();
   }, 10 * 60 * 1000);
 
-  const fetchUrl = `https://new.aichatx.ai/Chat/Send2`;
+  const fetchUrl = `new.aichatx.ai/Chat/Send2`;
   const fetchOptions: RequestInit = {
     headers: {
       "Content-Type": "application/json",
